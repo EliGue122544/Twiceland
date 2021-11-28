@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/8a78d26a06.js" crossorigin="anonymous"></script>
+  <style>
+ .box{
+   background-color: rgb(233, 116, 175);
+   padding-right: 20px;
+   padding-left: 20px;
+   padding-bottom: 9px;
+   text-align: center
+ }
+
+ <!--sig up/log in style-->
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #756372;
+  padding-top: 50px;
+}
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+  </style>
+     
+</head>
+<body class="pink lighten-3">
+
+  <!--dropdown content-->
+
+<!-- Members Dropdown Structure 2 -->
+<ul id="dropdown2" class="dropdown-content">
+  <li><a href="#">Im Nayeon</a></li>
+  <li><a href="#">Yoo Jungyeon</a></li>
+  <li><a href="#">Hirai Momo</a></li>
+  <li><a href="#">Minatozaki Sana</a></li>
+  <li><a href="#">Park Jihyo</a></li>
+  <li><a href="#">Myoui Mina</a></li>
+  <li><a href="#">Kim Dahyun</a></li>
+  <li><a href="#">Son Chaeyoung</a></li>
+  <li><a href="#">Chou Tzuyu</a></li>
+</ul>
+
+
+<div class="navbar-fixed">
+<nav>
+  <div class="nav-wrapper pink lighten-2">
+    <a href="#!" class="brand-logo center">TWICE</a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="index.html">Home</a></li>
+
+      <!--Membershrefrigger 1-->
+      <li><a class="dropdown-trigger" data-target="dropdown2">Members<i class="material-icons right">arrow_drop_down</i></a></li>
+
+      <!--sign up btn-->
+     <li><button class="btn pink darken-1 white-text waves-effect waves-pink lighten-2" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button></li>
+    </ul>
+  </div>
+</nav>
+</div>
+
+
+<!--CONTENT-->
+
+
+<!--header-->
+<div class="parallax-container">
+  <div class="parallax"><img src="img1/twice bg.jpg" alt="Twice group photo from album better" width="100" height="100"></div>
+</div>
+<h1 class="white-text center">About Twice</h1>
+<div class="container">
+  <p class="white-text">Twice is a kpop girl group band that is consist of 9 members from oldest to youngest Im Nayeon, Yoo Jungyeon, Hirai Momo, Minatazaki Sana, Park Jihyo, Myoui Mina, Kim Dahyun, Son Chaeyoung and Chou Tzuyu. They debuted on October 20, 2015 and in the past 6 years Twice won many awards, sold tours and hundreds of albums. Twice also has many anti-fans that threaten them but even though they gone through many ups and downs. Twice still continue to make songs and perform the best they got! And I hope many people will listen to there songs.</p>
+</div>
+
+<!--mvs-->
+<div>
+  <center>
+    <video class="responsive-video" controls>
+    <source src="video/TWICE “SCIENTIST” M-V.mp4" type="video/mp4">
+  </video>
+  </center>
+  <br></br>
+  <center>
+    <video class="responsive-video" controls>
+    <source src="video/TWICE 'The Feels' M-V.mp4" type="video/mp4">
+  </video>
+  </center>
+</div>
+
+      
+        
+
+<!--members-->
+<!--first 3-->
+<div class="row container">
+  <h1 class="white-text center">Members</h1>
+  <div class="col s4 m4"><div class="box"><div class="card-panel hoverable"><img class="responsive-img" src="img1/nayeom.jpg" alt="Nayeon" width="240" height="300"></div>Im Nayeon</div></div>
+  <div class="col s4 m4"><div class="box"><div class="card-panel hoverable"><img class="responsive-img" src="img1/jungyeon.jpg" alt="Jungyeon" width="240" height="300"></div>Yoo Jungyeon</div></div>
+  <div class="col s4 m4"><div class="box"><div class="card-panel hoverable"><img class="responsive-img" src="img1/momoooo.jpg" alt="Momo" width="240" height="300"></div>Hirai Momo</div></div>
+</div>
+
+<!--second 3-->
+<br></br>
+<div class="row container">
+  <div class="col s4 m4"><div class="box"><div class="card-panel hoverable"><div class="img"><img class="responsive-img" src="img1/SANAQUEEN.jpg" alt="Sana" width="240" height="300"></div></div>Minatozaki Sana</div></div>
+  <div class="col s4 m4"><div class="box"><div class="card-panel hoverable"><img class="responsive-img" src="img1/jihyoo.jpg" alt="Jihyo" width="240" height="300"></div>Park Jihyo</div></div>
+  <div class="col s4 m4"><div class="box"><div class="card-panel hoverable"><img class="responsive-img" src="img1/minarir.jpg" alt="Mina" width="240" height="300"></div>Myoui Mina</div></div>
+</div>
+
+<!--last 3-->
+<br></br>
+<div class="row container">
+  <div class="col s4 m4"><div class="box"><div class="card-panel hoverable"><img class="responsive-img" src="img1/dubudubu.jpg" alt="Dahyun" width="240" height="300"></div>Kim Dahyun</div></div>
+  <div class="col s4 m4"><div class="box"><div class="card-panel hoverable"><img class="responsive-img" src="img1/chaecahe.jpg" alt="Chaeyoung" width="240" height="300"></div>Son Cheayoung</div></div>
+  <div class="col s4 m4"><div class="box"><div class="card-panel hoverable"><img class="responsive-img" src="img1/chuchu.jpg" alt="Tzuyu" width="240" height="300"></div>Chou Tzuyu</div></div>
+</div>
+
+
+<!--footter-->
+<div class="page-footer pink lighten-2">
+  <div class="container pink lighten-2">
+    <div class="row">
+      <div class="col l6 s12 pink lighten-2">
+        <h4 class="white-text">About us</h4>
+        <p class="grey-text text-lighten-4" class="flow-text">Thank you for visiting my website. I'm Elisha Mikaela A. Guerrero 18 years old and currently a grade 12 student. And the theme of my website is Twice because i love Twice very much they give me inspiration and I want more people to know and hear about Twice specially there songs.</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h4 class="white-text">Follow Twice</h4>
+        <ul>
+          <li><a class="white-text" href="https://www.facebook.com/JYPETWICE">Facebook<i class="fab fa-facebook-f left"></i></a></li>
+          <li><a class="white-text" href="https://www.youtube.com/channel/UCzgxx_DM2Dcb9Y1spb9mUJA">Youtube<i class="fab fa-youtube left"></i></a></li>
+          <li><a class="white-text" href="https://www.instagram.com/twicetagram/?hl=en">Instagram<i class="fab fa-instagram left"></i></a></li>
+          <li><a class="white-text" href="https://twitter.com/JYPETWICE?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter<i class="fab fa-twitter left"></i></a></li>
+        </ul>
+      </div>
+      <div class="rows">
+        <h4 class="white-text">Contact us</h4>
+        <div class="col 6 S12 white-text">elishamikaelaguerrero@gmail.com<i class="material-icons right">mail</i></div>
+        <div class="col 6 S12 white-text">09474856772<i class="material-icons right">phone</i></div>
+        <br></br>
+        <form>
+          <div class="input-field">
+            <input id="search" type="search" required>
+            <label class="label-icon" for="search"><i class="material-icons white">search</i></label>
+            <i class="material-icons">close</i>
+          </div>
+        </form>
+      </div>  
+    </div>
+  </div>
+  <div class="footer-copyright pink lighten-2">
+    <div class="container">
+    © 2014 Copyright Text
+    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    </div>  
+  </div>
+</footer>
+    
+
+<!--sign up and log in input-->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+<div class="row container white">
+  <form class="col s12">
+    <div class="row">
+      <div class="input-field col s4">
+        <input placeholder="first name" id="first_name" type="text" class="validate">
+        <label for="first_name">First Name</label>
+      </div>
+      <div class="input-field col s4">
+        <input placeholder="middle name" id="middle_name" type="text" class="validate">
+        <label for="middle_name">Middle Name</label>
+      </div>
+      <div class="row">
+        <div class="input-field col s4">
+          <input placeholder="las name" id="last_name" type="text" class="validate">
+          <label for="last_name">Last name</label>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input placeholder="password" id="password" type="password" class="validate" required>
+        <label for="password">Password</label>
+      </div>
+      <div class="input-field col s12">
+        <input placeholder="repeat password" id="repeat_password" type="password" class="validate" required>
+        <label for="repeat_password">Repeat Password</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input placeholder="email" id="email" type="email" class="validate" required>
+        <label for="email">Email</label>
+        <span class="helper-text" data-error="wrong" data-success="right"></span>
+     
+      <p class="black-text">By creating an account you agree to our<a href="#" style="color:dodgerblue">Terms & Privacy</a></p>
+      <div class="clearfix">
+        <button class="col s6" type="login"  class="loginlbtn">Log in</button>
+        <button class="col s6" type="submit" class="signupbtn">Sign Up</button>
+      </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+
+
+  
+
+
+<!--JQUERY CDN-->
+ <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous">
+</script>
+  
+<!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!--dropdown script-->
+  <script>
+  $(".dropdown-trigger").dropdown({ hover: false });
+  </script>
+
+<!--sign up modal-->
+<script>
+  // Get the modal
+  var modal = document.getElementById('id01');
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+<!--parallax the cool moving image thingy-->
+<script>
+  $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+  </script>
+
+<!--corousel the slidey thingy-->
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+</script>
+
+<!--selector-->
+<script>
+  $(document).ready(function(){
+  $('select').formSelect();
+});
+</script>
+
+
+</body>  
+</html>
